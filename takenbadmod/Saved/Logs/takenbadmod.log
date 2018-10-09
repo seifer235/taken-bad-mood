@@ -436,3 +436,8 @@ LogInit: Object subsystem initialized
 [2018.10.09-17.57.27:903][997]EditorErrors: New page: Guardar salida
 [2018.10.09-17.57.27:903][997]EditorErrors: Warning: Error al guardar '../../../../../../Users/enki/Documents/GitHub/taken-bad-mood/takenbadmod/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
 [2018.10.09-17.57.31:206][997]LogSlate: Window 'Error al guardar los paquetes' being destroyed
+[2018.10.09-18.02.58:641][ 23]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.132
+[2018.10.09-18.02.58:667][ 23]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2018.10.09-18.02.58:667][ 23]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2018.10.09-18.02.58:985][ 23]LogSavePackage: Moving '../../../../../../Users/enki/Documents/GitHub/taken-bad-mood/takenbadmod/Saved/ThirdPersonCharacter_Auto17ED41EBC4DFDD9AAD3B969BDDA7D4B78.tmp' to '../../../../../../Users/enki/Documents/GitHub/taken-bad-mood/takenbadmod/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto1.uasset'
+[2018.10.09-18.02.58:991][ 23]LogFileHelpers: Auto-saving content packages took 0.340
