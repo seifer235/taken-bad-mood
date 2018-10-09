@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 10/09/18 15:59:18
+=======
+﻿Log file open, 10/09/18 15:38:56
+>>>>>>> 4135706e35e2a0800807464159bbbd70fe6ebbf3
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,8 +13,13 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: takenbadmod
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.321917
+=======
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 5.636630
+>>>>>>> 4135706e35e2a0800807464159bbbd70fe6ebbf3
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +102,11 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
+<<<<<<< HEAD
 LogStreaming: Display: Took  0.231s to configure plugins.
+=======
+LogStreaming: Display: Took  0.460s to configure plugins.
+>>>>>>> 4135706e35e2a0800807464159bbbd70fe6ebbf3
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -118,7 +131,7 @@ LogInit: Build: ++UE4+Release-4.20-CL-4369336
 LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 10 (), CPU: AMD Ryzen 5 2400G with Radeon Vega Graphics    , GPU: AMD Radeon(TM) RX Vega 11 Graphics
+LogInit: OS: Windows 8.1 (), CPU: AMD A10-7300 Radeon R6, 10 Compute Cores 4C+6G , GPU: AMD Radeon(TM) R6 Graphics
 LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
@@ -150,6 +163,7 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 [2018.10.09-13.59.19:167][  0]LogInit: Selected Device Profile: [Windows]
 [2018.10.09-13.59.19:167][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2018.10.09-13.59.19:194][  0]LogHAL: Display: Platform has ~ 7 GB [7459008512 / 8589934592 / 7], which maps to Smaller [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
@@ -664,3 +678,261 @@ LogInit: Object subsystem initialized
 [2018.10.09-14.00.02:079][115]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2018.10.09-14.00.02:093][115]LogExit: Exiting.
 [2018.10.09-14.00.02:097][115]Log file closed, 10/09/18 16:00:02
+=======
+[2018.10.09-13.39.01:498][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.09-13.39.01:499][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.09-13.39.01:568][  0]LogHAL: Display: Platform has ~ 15 GB [16049774592 / 17179869184 / 15], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.09-13.39.01:580][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.09-13.39.01:592][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.09-13.39.01:648][  0]LogInit: Computer: ENKISIRIO
+[2018.10.09-13.39.01:648][  0]LogInit: User: enki
+[2018.10.09-13.39.01:648][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.09-13.39.01:648][  0]LogInit: High frequency timer resolution =1.852017 MHz
+[2018.10.09-13.39.01:649][  0]LogMemory: Memory total: Physical=14.9GB (15GB approx)
+[2018.10.09-13.39.01:649][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.09-13.39.01:649][  0]LogMemory: Process Physical Memory: 97.19 MB used, 97.19 MB peak
+[2018.10.09-13.39.01:649][  0]LogMemory: Process Virtual Memory: 90.21 MB used, 90.21 MB peak
+[2018.10.09-13.39.01:649][  0]LogMemory: Physical Memory: 3863.31 MB used,  11442.95 MB free, 15306.26 MB total
+[2018.10.09-13.39.01:649][  0]LogMemory: Virtual Memory: 480.04 MB used,  11442.95 MB free, 134217728.00 MB total
+[2018.10.09-13.39.03:068][  0]LogInit: Using OS detected language (es-ES).
+[2018.10.09-13.39.03:068][  0]LogInit: Using OS detected locale (es-ES).
+[2018.10.09-13.39.03:154][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so the 'es' localization will be used.
+[2018.10.09-13.39.05:100][  0]LogStreaming: Display: Took  1.982s to InitEngineTextLocalization.
+[2018.10.09-13.39.05:118][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.09-13.39.06:372][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.09-13.39.06:373][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.09-13.39.17:308][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.09-13.39.17:308][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.09-13.39.17:332][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) R6 Graphics' (Feature Level 11_0)
+[2018.10.09-13.39.17:333][  0]LogD3D11RHI:       1002/0/7424 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2018.10.09-13.39.17:335][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.09-13.39.17:335][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.09-13.39.17:335][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.09-13.39.17:350][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.09-13.39.17:350][  0]LogD3D11RHI:     GPU DeviceId: 0x130a (for the marketing name, search the web for "GPU Device Id")
+[2018.10.09-13.39.17:350][  0]LogWindows: EnumDisplayDevices:
+[2018.10.09-13.39.17:350][  0]LogWindows:    0. 'AMD Radeon(TM) R6 Graphics' (P:1 D:1)
+[2018.10.09-13.39.17:351][  0]LogWindows:    1. 'AMD Radeon(TM) R6 Graphics' (P:0 D:0)
+[2018.10.09-13.39.17:351][  0]LogWindows:    2. 'AMD Radeon(TM) R6 Graphics' (P:0 D:0)
+[2018.10.09-13.39.17:352][  0]LogWindows:    3. 'AMD Radeon(TM) R6 Graphics' (P:0 D:0)
+[2018.10.09-13.39.17:352][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.10.09-13.39.17:352][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) R6 Graphics
+[2018.10.09-13.39.17:352][  0]LogD3D11RHI:   Driver Version: 13.351.1002.1002 (internal:13.351.1002.1002, unified:13.351.1002.1002)
+[2018.10.09-13.39.17:352][  0]LogD3D11RHI:      Driver Date: 4-1-2014
+[2018.10.09-13.39.17:352][  0]LogRHI: Texture pool is 701 MB (70% of 1002 MB)
+[2018.10.09-13.39.17:448][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.09-13.39.17:823][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
+[2018.10.09-13.39.22:770][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.09-13.39.22:900][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/enki/Documents/GitHub/taken-bad-mood/takenbadmod/Intermediate/Shaders/WorkingDirectory/604/).
+[2018.10.09-13.39.22:900][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/enki/AppData/Local/Temp/UnrealShaderWorkingDir/CBFD31D044BD1ABE5FE0259D41CC3AF8/'.
+[2018.10.09-13.39.26:359][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.09-13.39.26:451][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.09-13.39.26:546][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.09-13.39.26:648][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.09-13.39.26:892][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.09-13.39.27:006][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.09-13.39.27:102][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.09-13.39.27:202][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.09-13.39.27:303][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.09-13.39.27:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-13.39.27:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-13.39.27:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-13.39.27:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-13.39.27:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-13.39.27:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-13.39.27:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-13.39.27:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-13.39.27:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-13.39.27:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-13.39.27:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-13.39.27:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-13.39.27:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-13.39.27:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-13.39.27:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-13.39.27:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-13.39.27:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-13.39.27:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-13.39.27:779][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.09-13.39.28:130][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.09-13.39.28:130][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.09-13.39.28:289][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.09-13.39.28:289][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.09-13.39.28:475][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.09-13.39.28:575][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.09-13.39.28:672][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.09-13.39.28:853][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.09-13.39.28:963][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.09-13.39.28:964][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.09-13.39.30:671][  0]LogXGEController: Cleaning working directory: C:/Users/enki/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.09-13.39.30:672][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.09-13.39.30:672][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.09-13.39.30:672][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.09-13.39.42:610][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.09-13.39.42:610][  0]LogDerivedDataCache: Display: Starting with empty Boot cache
+[2018.10.09-13.39.42:610][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/enki/Documents/GitHub/taken-bad-mood/takenbadmod/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.09-13.39.42:610][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.09-13.39.42:610][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/enki/Documents/GitHub/taken-bad-mood/takenbadmod/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.09-13.39.42:610][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.09-13.39.42:721][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.09-13.39.42:765][  0]LogDerivedDataCache: Using Local data cache path C:/Users/enki/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.09-13.39.42:765][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.09-13.39.42:765][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.09-13.39.43:012][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.09-13.39.43:089][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.09-13.39.43:320][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.09-13.39.47:119][  0]LogAssetRegistry: FAssetRegistry took 0.0568 seconds to start up
+[2018.10.09-13.39.52:937][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.09-13.39.59:193][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.09-13.39.59:644][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.09-13.39.59:644][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.09-13.39.59:690][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.09-13.39.59:690][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.09-13.40.01:215][  0]LogNetVersion: takenbadmod 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2321404187)
+[2018.10.09-13.40.17:855][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.373299 seconds
+[2018.10.09-13.40.17:978][  0]LogUObjectArray: 38447 objects as part of root set at end of initial load.
+[2018.10.09-13.40.17:978][  0]LogUObjectAllocator: 6692624 out of 0 bytes used by permanent object pool.
+[2018.10.09-13.40.17:978][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.09-13.41.08:229][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.09-13.41.08:385][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.09-13.41.12:006][  0]SourceControl: El control de código fuente está desactivado
+[2018.10.09-13.41.12:020][  0]SourceControl: El control de código fuente está desactivado
+[2018.10.09-13.41.12:171][  0]SourceControl: El control de código fuente está desactivado
+[2018.10.09-13.41.12:247][  0]SourceControl: El control de código fuente está desactivado
+[2018.10.09-13.41.15:449][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.09-13.41.15:906][  0]LogOcInput: OculusInput pre-init called
+[2018.10.09-13.41.16:833][  0]LogEngine: Initializing Engine...
+[2018.10.09-13.41.16:862][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.09-13.41.16:886][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.001 s
+[2018.10.09-13.41.16:886][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.09-13.41.16:887][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.09-13.41.16:887][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.09-13.41.18:409][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.09-13.41.18:962][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.09-13.41.19:226][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.09-13.41.19:288][  0]LogInit: FAudioDevice initialized.
+[2018.10.09-13.41.19:288][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.09-13.41.20:297][  0]LogDerivedDataCache: Saved boot cache 1.01s 87MB C:/Users/enki/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.09-13.41.20:327][  0]LogInit: Texture streaming: Enabled
+[2018.10.09-13.41.20:672][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.09-13.41.21:145][  0]LogInit: Transaction tracking system initialized
+[2018.10.09-13.41.21:790][  0]BlueprintLog: New page: Cargar el editor
+[2018.10.09-13.41.25:636][  0]LocalizationService: Localization service is disabled
+[2018.10.09-13.41.29:764][  0]LogFileCache: Scanning file cache for directory 'C:/Users/enki/Documents/GitHub/taken-bad-mood/takenbadmod/Content/' took 0.03s
+[2018.10.09-13.41.29:764][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.09-13.41.29:796][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.09-13.41.29:820][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.09-13.41.29:820][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.09-13.41.29:821][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.09-13.41.29:821][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.09-13.41.29:821][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.09-13.41.34:945][  0]SourceControl: El control de código fuente está desactivado
+[2018.10.09-13.41.34:987][  0]Cmd: MAP LOAD FILE="../../../../../../Users/enki/Documents/GitHub/taken-bad-mood/takenbadmod/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.09-13.41.35:012][  0]LightingResults: New page: Diseñar la iluminación
+[2018.10.09-13.41.35:518][  0]MapCheck: New page: Revisión del mapa
+[2018.10.09-13.41.35:519][  0]LightingResults: New page: Diseñar la iluminación
+[2018.10.09-13.41.37:662][  0]LogLinker: Warning: No puede encontrar el archivo '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData'
+[2018.10.09-13.41.37:662][  0]LogLinker: Warning: No puede encontrar el archivo para el activo '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData' mientras carga ../../../../../../Users/enki/Documents/GitHub/taken-bad-mood/takenbadmod/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2018.10.09-13.41.37:663][  0]LoadErrors: Error: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : No puede encontrar el archivo para el activo. /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData
+[2018.10.09-13.41.37:713][  0]LogLinker: Warning: No puede encontrar el archivo '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData'
+[2018.10.09-13.41.37:714][  0]LogLinker: Warning: No puede encontrar el archivo para el activo '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData' mientras carga ../../../../../../Users/enki/Documents/GitHub/taken-bad-mood/takenbadmod/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2018.10.09-13.41.37:714][  0]LoadErrors: Error: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : No puede encontrar el archivo para el activo. /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData
+[2018.10.09-13.41.37:722][  0]LogLinker: Warning: No puede encontrar el archivo '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData'
+[2018.10.09-13.41.37:722][  0]LogLinker: Warning: No puede encontrar el archivo para el activo '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData' mientras carga NULL.
+[2018.10.09-13.41.37:723][  0]LogLinker: Warning: No puede encontrar el archivo '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData'
+[2018.10.09-13.41.37:723][  0]LogLinker: Warning: No puede encontrar el archivo para el activo '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData' mientras carga NULL.
+[2018.10.09-13.41.37:956][  0]LogLinker: Warning: No puede encontrar el archivo '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData'
+[2018.10.09-13.41.37:956][  0]LoadErrors: Error al cargar /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData Referenciado por PersistentLevel
+[2018.10.09-13.41.37:957][  0]LogLinker: Warning: No puede encontrar el archivo para el activo '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData' mientras carga NULL.
+[2018.10.09-13.41.37:957][  0]LoadErrors: Error al cargar /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData Referenciado por PersistentLevel
+[2018.10.09-13.41.39:548][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.09-13.41.40:373][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.09-13.41.40:630][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.09-13.41.40:811][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 180,174ms to complete.
+[2018.10.09-13.41.40:811][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 5.847
+[2018.10.09-13.41.42:828][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-13.41.42:859][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-13.41.42:884][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-13.41.42:907][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-13.41.43:068][  0]LogCollectionManager: Loaded 0 collections in 0.003535 seconds
+[2018.10.09-13.41.43:293][  0]LogFileCache: Scanning file cache for directory 'C:/Users/enki/Documents/GitHub/taken-bad-mood/takenbadmod/Saved/Collections/' took 0.01s
+[2018.10.09-13.41.43:293][  0]LogFileCache: Scanning file cache for directory 'C:/Users/enki/Documents/GitHub/taken-bad-mood/takenbadmod/Content/Developers/enki/Collections/' took 0.01s
+[2018.10.09-13.41.43:293][  0]LogFileCache: Scanning file cache for directory 'C:/Users/enki/Documents/GitHub/taken-bad-mood/takenbadmod/Content/Collections/' took 0.01s
+[2018.10.09-13.41.43:293][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.10.09-13.41.43:337][  0]LogContentBrowser: Native class hierarchy populated in 0.0418 seconds. Added 2572 classes and 603 folders.
+[2018.10.09-13.41.43:448][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.10.09-13.41.47:025][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.10.09-13.41.47:097][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.10.09-13.41.48:616][  0]LogSlate: Took 0.030162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.09-13.41.48:689][  0]LogSlate: Took 0.052103 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.09-13.41.48:795][  0]LogSlate: Took 0.048729 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.09-13.41.49:584][  0]LogRenderer: Reallocating scene render targets to support 856x396 Format 9 NumSamples 1 (Frame:1).
+[2018.10.09-13.41.51:154][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.10.09-13.41.51:154][  0]LogLoad: (Engine Initialization) Total time: 214.51 seconds
+[2018.10.09-13.41.51:154][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.09-13.41.51:194][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.09-13.41.51:289][  0]LogContentStreaming: Texture pool size now 800 MB
+[2018.10.09-13.41.51:307][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.09-13.41.51:545][  0]LogSlate: Took 0.044127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.09-13.41.52:565][  4]LogAssetRegistry: Asset discovery search completed in 125.4713 seconds
+[2018.10.09-13.41.52:569][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.09-13.41.52:569][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000189 seconds (updated 0 objects)
+[2018.10.09-13.43.08:339][  4]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-13.43.08:434][  7]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.09-13.43.08:556][  7]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.09-13.43.08:556][  7]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.09-13.43.08:647][  7]PIE: New page: Sesión PIE (reproducción en el editor): ThirdPersonExampleMap (9/10/2018 17:43:08)
+[2018.10.09-13.43.08:647][  7]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.09-13.43.08:765][  7]LogPlayLevel: PIE: StaticDuplicateObject took: (0.117612s)
+[2018.10.09-13.43.08:766][  7]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.09-13.43.08:767][  7]LogPlayLevel: PIE: World Init took: (0.001868s)
+[2018.10.09-13.43.08:767][  7]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.119875s)
+[2018.10.09-13.43.08:876][  7]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.09-13.43.08:890][  7]LogInit: FAudioDevice initialized.
+[2018.10.09-13.43.08:998][  7]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.09-13.43.09:031][  7]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.10.09-15.43.09
+[2018.10.09-13.43.09:052][  7]LogWorld: Bringing up level for play took: 0.025216
+[2018.10.09-13.43.09:157][  7]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 10 classes and 0 folders.
+[2018.10.09-13.43.09:177][  7]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1,124
+[2018.10.09-13.43.09:178][  7]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.09-13.43.28:634][543]Set new viewmode: Wireframe
+[2018.10.09-13.43.29:395][582]Set new viewmode: Wireframe
+[2018.10.09-13.43.30:246][633]Set new viewmode: Wireframe
+[2018.10.09-13.43.31:680][719]Set new viewmode: Wireframe
+[2018.10.09-13.43.32:283][755]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.09-13.43.32:325][755]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-13.43.32:387][755]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.09-13.43.32:388][755]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.09-13.43.32:505][755]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-13.43.32:578][756]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.10.09-13.43.39:579][943]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-13.43.41:379][991]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.09-13.43.41:454][991]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.09-13.43.41:455][991]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.09-13.43.41:455][991]PIE: New page: Sesión PIE (reproducción en el editor): ThirdPersonExampleMap (9/10/2018 17:43:41)
+[2018.10.09-13.43.41:456][991]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.09-13.43.41:513][991]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056927s)
+[2018.10.09-13.43.41:515][991]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.09-13.43.41:516][991]LogPlayLevel: PIE: World Init took: (0.003090s)
+[2018.10.09-13.43.41:516][991]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.060603s)
+[2018.10.09-13.43.41:651][991]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.09-13.43.41:668][991]LogInit: FAudioDevice initialized.
+[2018.10.09-13.43.41:770][991]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.09-13.43.41:776][991]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.10.09-15.43.41
+[2018.10.09-13.43.41:777][991]LogWorld: Bringing up level for play took: 0.005416
+[2018.10.09-13.43.41:793][991]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0,261
+[2018.10.09-13.43.41:793][991]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.09-13.43.56:882][484]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.09-13.43.56:883][484]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-13.43.56:954][484]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.09-13.43.56:954][484]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.09-13.43.57:099][484]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-13.43.57:156][485]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.10.09-13.43.59:066][536]Cmd: SELECT NONE
+[2018.10.09-13.44.01:311][595]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-13.55.34:960][454]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.09-13.55.37:090][490]LogSlate: Took 0.000485 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.09-13.55.37:094][490]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.09-13.55.37:932][490]LogSavePackage: Moving '../../../../../../Users/enki/Documents/GitHub/taken-bad-mood/takenbadmod/Saved/ThirdPersonExampleMapDB0254AE48B4C7E9DAC64AA127E49C02.tmp' to '../../../../../../Users/enki/Documents/GitHub/taken-bad-mood/takenbadmod/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.10.09-13.55.38:101][490]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.984
+[2018.10.09-13.55.41:393][561]LogSlate: FSceneViewport::OnFocusLost() reason 0
+>>>>>>> 4135706e35e2a0800807464159bbbd70fe6ebbf3
